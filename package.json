@@ -1,6 +1,6 @@
 {
   "name": "superjsonld",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Tiny, configurable JSON-LD (schema.org) builders for the web, with an optional React component. Framework-agnostic core, typed with schema-dts.",
   "keywords": [
     "json-ld",
