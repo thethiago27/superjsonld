@@ -1,6 +1,6 @@
 {
-  "name": "superjsonld",
-  "version": "0.2.0",
+  "name": "super-json-ld",
+  "version": "0.1.1",
   "description": "Tiny, configurable JSON-LD (schema.org) builders for the web, with an optional React component. Framework-agnostic core, typed with schema-dts.",
   "keywords": [
     "json-ld",
@@ -17,11 +17,11 @@
   "author": "Thiago",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thiagosouza/superjsonld.git"
+    "url": "git+https://github.com/thethiago27/superjsonld.git"
   },
-  "homepage": "https://github.com/thiagosouza/superjsonld#readme",
+  "homepage": "https://github.com/thethiago27/superjsonld#readme",
   "bugs": {
-    "url": "https://github.com/thiagosouza/superjsonld/issues"
+    "url": "https://github.com/thethiago27/superjsonld/issues"
   },
   "type": "module",
   "sideEffects": false,

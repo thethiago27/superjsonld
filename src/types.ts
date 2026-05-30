@@ -1,5 +1,5 @@
 /**
- * Public configuration and input types for `superjsonld`.
+ * Public configuration and input types for `super-json-ld`.
  *
  * These describe what a consumer passes in. The builders return strongly typed
  * schema.org objects (via `schema-dts`); see `builders.ts`.

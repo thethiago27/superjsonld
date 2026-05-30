@@ -5,21 +5,21 @@ Tiny, configurable [JSON-LD](https://json-ld.org/) ([schema.org](https://schema.
 - **Framework-agnostic core** with zero runtime dependencies.
 - **Typed with [`schema-dts`](https://github.com/google/schema-dts)** for autocomplete and safety.
 - **Configure once** with `createJsonLd({ baseUrl, organization, ... })`; relative paths are resolved for you.
-- **Optional React component** (`superjsonld/react`) for rendering the `<script type="application/ld+json">` tag — server-renderable, works in the Next.js App Router.
+- **Optional React component** (`super-json-ld/react`) for rendering the `<script type="application/ld+json">` tag — server-renderable, works in the Next.js App Router.
 
 ## Install
 
 ```bash
-npm install superjsonld
-# or: pnpm add superjsonld / yarn add superjsonld
+npm install super-json-ld
+# or: pnpm add super-json-ld / yarn add super-json-ld
 ```
 
-React is only needed if you use the `superjsonld/react` entry — it is declared as an optional peer dependency.
+React is only needed if you use the `super-json-ld/react` entry — it is declared as an optional peer dependency.
 
 ## Quick start
 
 ```ts
-import { createJsonLd } from "superjsonld"
+import { createJsonLd } from "super-json-ld"
 
 const jsonld = createJsonLd({
   baseUrl: "https://example.com",
@@ -48,8 +48,8 @@ protocol-relative URLs are passed through unchanged.
 ## With React / Next.js App Router
 
 ```tsx
-import { JsonLd } from "superjsonld/react"
-import { createJsonLd } from "superjsonld"
+import { JsonLd } from "super-json-ld/react"
+import { createJsonLd } from "super-json-ld"
 
 const jsonld = createJsonLd({ baseUrl: "https://example.com", organization: { name: "Example" } })
 

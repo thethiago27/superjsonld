@@ -7,7 +7,7 @@ export type JsonLdData =
   | ReadonlyArray<WithContext<Thing>>
 
 export interface JsonLdProps {
-  /** A single node built by `superjsonld`, a `@graph`, or an array of nodes. */
+  /** A single node built by `super-json-ld`, a `@graph`, or an array of nodes. */
   data: JsonLdData
 }
 

@@ -43,7 +43,7 @@ function resolveOrganization(
   const merged = { ...config.organization, ...overrides }
   if (!merged.name) {
     throw new Error(
-      "superjsonld: organization.name is required. Provide it in createJsonLd({ organization }) or as an override.",
+      "super-json-ld: organization.name is required. Provide it in createJsonLd({ organization }) or as an override.",
     )
   }
   return merged as OrganizationInput
@@ -90,7 +90,7 @@ export function websiteLd(
   const name = overrides.name ?? config.organization?.name
   if (!name) {
     throw new Error(
-      "superjsonld: a site name is required for website(). Provide createJsonLd({ organization }) or pass { name }.",
+      "super-json-ld: a site name is required for website(). Provide createJsonLd({ organization }) or pass { name }.",
     )
   }
   const language = overrides.language ?? config.defaultLanguage
